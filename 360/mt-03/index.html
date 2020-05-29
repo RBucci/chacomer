@@ -95,7 +95,7 @@
 		</style>	
 	</head>
 	<body>
-		<script type="text/javascript" src="object2vr_player.js">
+		<script type="text/javascript" src="player.js">
 		</script>
 		<div id="container" style="width:100%;height:100%;">
 		This content requires HTML5 &amp; Javascript or Adobe Flash Player Version 9 or higher.
@@ -106,10 +106,10 @@
 			obj=new object2vrPlayer("container");
 			str='<?xml version="1.0" encoding="UTF-8"?>';
 				str+='<vrobject>';
-				str+='  <input overlap="1" levelqueuebmp="5" preview="4" states="1" levelqueueraw="20" windowwidth="640" width="1200" preload="0" rows="1" fileextension="jpg" windowheight="416" levelmembmp="200" imagepath="images" levelmemraw="300" height="780" columns="36" levelbias="0.400" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" leveltilesize="512">';
-				str+='    <level width="1200" embed="0" height="780" preload="0" predecode="0"/>';
-				str+='    <level width="600" embed="0" height="390" preload="0" predecode="0"/>';
-				str+='    <level width="300" embed="0" height="195" preload="0" predecode="0"/>';
+				str+='  <input overlap="1" levelqueuebmp="5" preview="4" states="1" levelqueueraw="20" windowwidth="640" width="1200" preload="1" rows="1" fileextension="jpg" windowheight="416" levelmembmp="200" imagepath="images" levelmemraw="300" height="780" columns="36" levelbias="0.400" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" leveltilesize="512">';
+				str+='    <level width="1200" embed="0" height="780" preload="1" predecode="0"/>';
+				str+='    <level width="600" embed="0" height="390" preload="1" predecode="0"/>';
+				str+='    <level width="300" embed="0" height="195" preload="1" predecode="0"/>';
 				str+='  </input>';
 				str+='  <control simulatemass="0" lockedmouse="0" swapxy="0" lockedkeyboard="0" dblclickfullscreen="1" revx="0" invertwheel="1" revy="0" wrapx="1" wrapy="0" trapwheel="1" automovemode="1" lockedwheel="0" speedwheel="1.000" controller="1" sensitivity="10"/>';
 				str+='  <view>';
