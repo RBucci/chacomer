@@ -1,7 +1,8 @@
 {
- "name": "Chacomer - Motos",
  "theme_color": "#FFFFFF",
  "start_url": "index.htm",
+ "description": "Bellezas sobre dos ruedas. Las mejores motos del pais en un solo lugar.",
+ "name": "Chacomer - Motos",
  "icons": [
   {
    "type": "image/png",
