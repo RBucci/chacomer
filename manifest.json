@@ -1,45 +1,45 @@
 {
- "theme_color": "#FFFFFF",
- "start_url": "index.htm",
- "description": "Bellezas sobre dos ruedas. Las mejores motos del pais en un solo lugar.",
- "name": "Chacomer - Motos",
  "icons": [
   {
+   "sizes": "150x150",
    "type": "image/png",
-   "src": "icons/icon150.png",
-   "sizes": "150x150"
+   "src": "icons/icon150.png"
   },
   {
+   "sizes": "16x16",
    "type": "image/png",
-   "src": "icons/icon16.png",
-   "sizes": "16x16"
+   "src": "icons/icon16.png"
   },
   {
+   "sizes": "180x180",
    "type": "image/png",
-   "src": "icons/icon180.png",
-   "sizes": "180x180"
+   "src": "icons/icon180.png"
   },
   {
+   "sizes": "192x192",
    "type": "image/png",
-   "src": "icons/icon192.png",
-   "sizes": "192x192"
+   "src": "icons/icon192.png"
   },
   {
+   "sizes": "32x32",
    "type": "image/png",
-   "src": "icons/icon32.png",
-   "sizes": "32x32"
+   "src": "icons/icon32.png"
   },
   {
+   "sizes": "512x512",
    "type": "image/png",
-   "src": "icons/icon512.png",
-   "sizes": "512x512"
+   "src": "icons/icon512.png"
   },
   {
+   "sizes": "64x64",
    "type": "image/png",
-   "src": "icons/icon64.png",
-   "sizes": "64x64"
+   "src": "icons/icon64.png"
   }
  ],
+ "name": "Chacomer - Motos",
+ "start_url": "index.htm",
  "background_color": "#FFFFFF",
+ "theme_color": "#FFFFFF",
+ "description": "Bellezas sobre dos ruedas. Las mejores motos del pais en un solo lugar.",
  "display": "fullscreen"
 }
